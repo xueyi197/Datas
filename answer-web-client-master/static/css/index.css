@@ -1,0 +1,48 @@
+body,
+form,
+html,
+img,
+input,
+p,
+span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: SimHei
+}
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+
+
+
+ 
+ /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+.scroll-bar-1::-webkit-scrollbar {
+  width: 4px;
+  height: 16px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/*定义滚动条轨道 内阴影+圆角*/
+.scroll-bar-1::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+/*定义滑块 内阴影+圆角*/
+.scroll-bar-1::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
